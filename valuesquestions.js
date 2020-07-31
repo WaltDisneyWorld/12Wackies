@@ -13,7 +13,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	    {
@@ -30,7 +30,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		    {
@@ -47,7 +47,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		    {
@@ -64,7 +64,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		    {
@@ -81,7 +81,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		    {
@@ -98,7 +98,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		    {
@@ -115,7 +115,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			    {
@@ -132,7 +132,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			    {
@@ -149,7 +149,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			    {
@@ -166,7 +166,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 				    {
@@ -183,7 +183,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 				    {
@@ -200,7 +200,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -217,7 +217,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -234,7 +234,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -251,7 +251,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -268,7 +268,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -285,7 +285,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -302,7 +302,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -319,7 +319,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -336,7 +336,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 					    {
@@ -353,7 +353,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -370,7 +370,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -387,7 +387,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -404,7 +404,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -421,7 +421,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -438,7 +438,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -455,7 +455,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -472,7 +472,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -489,7 +489,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -506,7 +506,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						    {
@@ -523,7 +523,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							    {
@@ -540,7 +540,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							    {
@@ -557,7 +557,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							    {
@@ -574,7 +574,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							    {
@@ -591,7 +591,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								    {
@@ -608,7 +608,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								    {
@@ -625,7 +625,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								    {
@@ -642,7 +642,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								    {
@@ -659,7 +659,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								    {
@@ -676,7 +676,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -693,7 +693,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -710,7 +710,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -727,7 +727,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -744,7 +744,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -761,7 +761,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -778,7 +778,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -795,7 +795,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -812,7 +812,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -829,7 +829,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -846,7 +846,7 @@ questions = [
 			"rgnl": 0,
 			"govt": -5,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									    {
@@ -863,7 +863,7 @@ questions = [
 			"rgnl": 5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -880,7 +880,7 @@ questions = [
 			"rgnl": -5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -897,7 +897,7 @@ questions = [
 			"rgnl": -5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -914,7 +914,7 @@ questions = [
 			"rgnl": 5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -931,7 +931,7 @@ questions = [
 			"rgnl": -5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -948,7 +948,7 @@ questions = [
 			"rgnl": 5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -965,7 +965,7 @@ questions = [
 			"rgnl": -5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -982,7 +982,7 @@ questions = [
 			"rgnl": 10,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -999,7 +999,7 @@ questions = [
 			"rgnl": -5,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1016,7 +1016,7 @@ questions = [
 			"rgnl": 10,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1033,7 +1033,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 5,
+			"milt": 5,
         }
     },
 	{
@@ -1050,7 +1050,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1067,7 +1067,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1084,7 +1084,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1101,7 +1101,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1118,7 +1118,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1135,7 +1135,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1152,7 +1152,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1169,7 +1169,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1186,7 +1186,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1203,7 +1203,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 	{
@@ -1220,7 +1220,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -5,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1237,7 +1237,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -5,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1254,7 +1254,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -5,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1271,7 +1271,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -5,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1288,7 +1288,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -10,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1305,7 +1305,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 10,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1322,7 +1322,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 15,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1339,7 +1339,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -10,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1356,7 +1356,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 5,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1373,7 +1373,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -3,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1390,7 +1390,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": -5,
-			"mili": 0,
+			"milt": 0,
         }
     },
 		{
@@ -1407,7 +1407,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1424,7 +1424,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1441,7 +1441,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1458,7 +1458,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1475,7 +1475,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1492,7 +1492,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1509,7 +1509,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1526,7 +1526,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1543,7 +1543,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1560,7 +1560,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 			{
@@ -1577,7 +1577,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": -10,
+			"milt": -10,
         }
     },
 				{
@@ -1594,7 +1594,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 15,
+			"milt": 15,
         }
     },
 				{
@@ -1611,7 +1611,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 10,
+			"milt": 10,
         }
     },
 				{
@@ -1628,7 +1628,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 10,
+			"milt": 10,
         }
     },
 				{
@@ -1645,7 +1645,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": -10,
+			"milt": -10,
         }
     },
 				{
@@ -1662,7 +1662,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 5,
+			"milt": 5,
         }
     },
 				{
@@ -1679,7 +1679,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 5,
+			"milt": 5,
         }
     },
 				{
@@ -1696,7 +1696,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 10,
+			"milt": 10,
         }
     },
 					{
@@ -1713,7 +1713,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 5,
+			"milt": 5,
         }
     },
 					{
@@ -1730,7 +1730,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 10,
+			"milt": 10,
         }
     },
 					{
@@ -1747,7 +1747,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 						{
@@ -1764,7 +1764,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							{
@@ -1781,7 +1781,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							{
@@ -1798,7 +1798,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							{
@@ -1815,7 +1815,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							{
@@ -1832,7 +1832,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							{
@@ -1849,7 +1849,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 							{
@@ -1866,7 +1866,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								{
@@ -1883,7 +1883,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 								{
@@ -1900,7 +1900,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -1917,7 +1917,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -1934,7 +1934,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -1951,7 +1951,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -1968,7 +1968,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -1985,7 +1985,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -2002,7 +2002,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -2019,7 +2019,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -2036,7 +2036,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -2053,7 +2053,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     },
 									{
@@ -2070,7 +2070,7 @@ questions = [
 			"rgnl": 0,
 			"govt": 0,
 			"cult": 0,
-			"mili": 0,
+			"milt": 0,
         }
     }
 ];
