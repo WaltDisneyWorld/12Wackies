@@ -235,16 +235,16 @@
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - altruity), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.dipl - cosmocracy), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.civi - self), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.morl - moralist), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.ordr - chaotic), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.tech - regressive), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.hier - egalitarian), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.rlgs - nihilism), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.rgnl - universalism), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.govt - ochlocracy), 1.73856063)	
-		dist += Math.pow(Math.abs(ideologies[i].stats.cult - panculturalism), 1.73856063)
-		dist += Math.pow(Math.abs(ideologies[i].stats.milt - destructionism), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.civi - self), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.morl - moralist), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.ordr - chaotic), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.tech - regressive), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.hier - egalitarian), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.rlgs - nihilism), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.rgnl - universalism), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.govt - ochlocracy), 2)	
+		dist += Math.pow(Math.abs(ideologies[i].stats.cult - panculturalism), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.milt - destructionism), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
