@@ -140,46 +140,127 @@ div.text-wrapper {
     color: #222222;
     display: inline-block;
 }
-div.equality {
-    background-color: #981d13;
+div.altruity {
+    background-color: #981D13;
     text-align: left;
     border-right-style: solid;
 }
-div.wealth {
-    background-color: #e3c043;
+div.avarice {
+    background-color: #E3C043;
     text-align: right;
     border-left-style: solid;
 }
-div.liberty {
+div.self {
     background-color: #398292;
     text-align: left;
     border-right-style: solid;
 }
-div.authority {
-    background-color: #6a2e2c;
+div.totality {
+    background-color: #6A2E2C;
     text-align: right;
     border-left-style: solid;
 }
-div.peace {
-    background-color: #7f7f7f;
+div.incognitism {
+    background-color: #30854C;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
-    background-color: #509a4c;
+div.cosmocracy {
+    background-color: #2D017A;
     text-align: left;
     border-right-style: solid;
 }
-div.progress {
-    background-color: #5fcd43;
+div.immorality {
+    background-color: #5B2000;
     text-align: right;
     border-left-style: solid;
 }
-div.tradition {
-    background-color: #0038df;
+div.moralist {
+    background-color: #80FF00;
     text-align: left;
     border-right-style: solid;
 }
+div.systematic {
+	background-color: #80B1D3;
+	text-align: right;
+	border-right-style: solid;
+}
+div.chaotic {
+	background-color: #C09AEC;
+	text-align: left
+	border-left-style: solid;
+}
+div.replacement {
+	background-color: #CC0033;
+	text-align: right;
+	border-right-style: solid;
+}
+div.regressive {
+	background-color: #B7C705;
+	text-align: left;
+	border-left-style: solid;
+}
+div.supremacist {
+	background-color: #D2B48C;
+	text-align: right;
+	border-right-style: solid;
+}
+div.egalitarian {
+	background-color: #FB9601;
+	text-align: left;
+	border-left-style: solid;
+}
+div.esoteric {
+	background-color: #9A6C0F;
+	text-align: right;
+	border-right-style: solid;
+}
+div.nihilism {
+	background-color: #343C3D;
+	text-align: left;
+	border-left-style: solid;
+}
+div.urbanism {
+	background-color: #30854C;
+	text-align: right;
+	border-right-style: solid;
+}
+div.universalism {
+	background-color: #BEBADA;
+	text-align: left;
+	border-right-style: solid;
+}
+div.aristocracy {
+	background-color: #FFFF00;
+	text-align: right;
+	border-left-style: solid;
+}
+div.ochlocracy {
+	background-color: #7D00D0;
+	text-align: left;
+	border-left-style: solid;
+}
+div.monoculturalism {
+	background-color: #004D3B;
+	text-align: right;
+	border-left-style: solid;
+}
+div.panculturalism {
+	background-color: #D10099;
+	text-align; left;
+	border-left-style: solid;
+}
+div.irenic {
+	background-color: #FFFFFF;
+	text-align: right;
+	border-right-style: solid;
+}
+div.destructionism {
+	background-color: #004904;
+	text-align: left;
+	border-left-style: solid;
+}
+
 span.weight-300 {
     font-weight: 300;
 }
