@@ -1,0 +1,138 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>12wackies Quiz</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+        
+<!-- Global site tag (gtag.js) - Google Analytics, No Personal Data Collected -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167989933-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167989933-1');
+</script>
+        
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+<body>
+<script type="application/javascript"
+        src="valuesquestions.js">
+</script>
+<h1>12wackies</h1>
+<hr>
+<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<p class="question" id="question-text"></p>
+<button class="button" onclick="next_question( 1.5)" style="background-color: #2b4005;">I'd go further</button> <br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Certainly Agree</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Agree</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Certainly Disagree</button> <br>
+<button class="button" onclick="next_question(-1.5)" style="background-color: #57180a;">This Sentence Angers Me</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
+<button class="small_button_off" id="back_button_off">Back</button><br>
+
+
+<!-- JavaScript for the test itself -->
+<script>
+    var max_econ, max_dipl, max_civi, max_morl, max_ordr, max_tech, max_hier, max_rlgs, max_rgnl, max_govt, max_cult, max_mili; // Max possible scores
+    max_econ = max_dipl = max_civi = max_morl = max_ordr = max_tech = max_hier = max_rlgs = max_rgnl = max_govt = max_cult = max_mili = 0;
+    var econ, dipl, civi, morl, ordr, tech, hier, rlgs, rgnl, govt, cult, mili; // User's scores
+    econ = dipl = civi = morl = ordr = tech = hier = rlgs = rgnl = govt = cult = mili = 0;
+    var qn = 0; // Question number
+    var prev_answer = null;
+    init_question();
+    for (var i = 0; i < questions.length; i++) {
+        max_econ += Math.abs(questions[i].effect.econ)
+        max_dipl += Math.abs(questions[i].effect.dipl)
+        max_civi += Math.abs(questions[i].effect.civi)
+        max_morl += Math.abs(questions[i].effect.morl)
+		max_ordr += Math.abs(questions[i].effect.ordr)
+		max_tech += Math.abs(questions[i].effect.tech)
+		max_hier += Math.abs(questions[i].effect.hier)
+		max_rlgs += Math.abs(questions[i].effect.rlgs)
+		max_rgnl += Math.abs(questions[i].effect.rlgs)
+		max_govt += Math.abs(questions[i].effect.govt)
+		max_cult += Math.abs(questions[i].effect.cult)
+		max_mili += Math.abs(questions[i].effect.mili)
+    }
+    function init_question() {
+        document.getElementById("question-text").innerHTML = questions[qn].question;
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        if (prev_answer == null) {
+            document.getElementById("back_button").style.display = 'none';
+            document.getElementById("back_button_off").style.display = 'block';
+        } else {
+            document.getElementById("back_button").style.display = 'block';
+            document.getElementById("back_button_off").style.display = 'none';
+        }
+
+    }
+
+    function next_question(mult) {
+        econ += mult*questions[qn].effect.econ
+        dipl += mult*questions[qn].effect.dipl
+        civi += mult*questions[qn].effect.civi
+		morl += mult*questions[qn].effect.morl
+		ordr += mult*questions[qn].effect.ordr
+		tech += mult*questions[qn].effect.tech
+		hier += mult*questions[qn].effect.hier
+		rlgs += mult*questions[qn].effect.rlgs
+		rgnl += mult*questions[qn].effect.rgnl
+		govt += mult*questions[qn].effect.govt
+		cult += mult*questions[qn].effect.cult
+		mili += mult*questions[qn].effect.mili
+        qn++;
+        prev_answer = mult;
+        if (qn < questions.length) {
+            init_question();
+        } else {
+            results();
+        }
+    }
+    function prev_question() {
+        if (prev_answer == null) {
+            return;
+        }
+        qn--;
+        econ -= prev_answer * questions[qn].effect.econ;
+        dipl -= prev_answer * questions[qn].effect.dipl;
+        civi -= prev_answer * questions[qn].effect.civi;
+		morl -= prev_answer * questions[qn].effect.morl;
+		ordr -= prev_answer * questions[qn].effect.ordr;
+		tech -= prev_answer * questions[qn].effect.tech;
+		hier -= prev_answer * questions[qn].effect.hier;
+		rlgs -= prev_answer * questions[qn].effect.rlgs;
+		rgnl -= prev_answer * questions[qn].effect.rgnl;
+		govt -= prev_answer * questions[qn].effect.govt;
+		cult -= prev_answer * questions[qn].effect.cult;
+		mili -= prev_answer * questions[qn].effect.mili;
+        prev_answer = null;
+        init_question();
+
+    }
+    function calc_score(score,max) {
+        return (100*(max+score)/(2*max)).toFixed(1)
+    }
+    function results() {
+        location.href = `valuesresults.html`
+            + `?e=${calc_score(econ,max_econ)}`
+            + `&d=${calc_score(dipl,max_dipl)}`
+            + `&c=${calc_score(civi,max_civi)}`
+            + `&m=${calc_score(morl,max_morl)}`
+			+ `&o=$(calc_score(ordr,max_ordr)}`
+			+ `&t=$(calc_score(tech,max_tech)}`
+			+ `&h=$(calc_score(hier,max_hier)}`
+			+ `&l=$(calc_score(rlgs,max_rlgs)}`
+			+ `&n=$(calc_score(rgnl,max_rgnl)}`
+			+ `&g=$(calc_score(govt,max_govt)}`
+			+ `&u=$(calc_score(cult,max_cult)}`
+			+ `&m=$(calc_score(mili,max_mili)}`
+    }
+</script>
+</body>
