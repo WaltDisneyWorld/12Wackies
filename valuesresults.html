@@ -105,7 +105,7 @@
     <div class="bar monoculturalism" id="bar-monoculturalism"><div class="text-wrapper" id="monoculturalism"></div></div>
     <img id="img-monoculturalism" src="value_images/monoculturalism.png" height="128pt"/>
 </div>
-<h2>Militarism Axis: <span class="weight-300" id="militarim-label"></span></h2>
+<h2>Militarism Axis: <span class="weight-300" id="militarism-label"></span></h2>
 <div class="axis">
     <img id="img-destructionism" src="value_images/destructionism.png" height="128pt"/>
     <div class="bar destructionism" id="bar-destructionism"><div class="text-wrapper" id="destructionism"></div></div>
@@ -227,7 +227,7 @@
 	document.getElementById("regional-label").innerHTML = setLabel(universalism, rgnlArray)
 	document.getElementById("governmental-label").innerHTML = setLabel (ochlocracy, govtArray)
 	document.getElementById("cultural-label").innerHTML = setLabel (panculturalism, cultArray)
-	document.getElementById("militarist-label").innerHTML = setLabel (destructionism, miltArray)
+	document.getElementById("militarism-label").innerHTML = setLabel (destructionism, miltArray)
 
     ideology = ""
     ideodist = Infinity
@@ -419,7 +419,7 @@
 		ctx.fillText("Religious Axis: " + document.getElementById("religious-label").innerHTML, 400, 1015)
 		ctx.fillText("Regional Axis: " + document.getElementById("regional-label").innerHTML, 400, 1135)
 		ctx.fillText("Governmental Axis: " + document.getElementById("governmental-label").innerHTML, 400, 1255)
-		ctx.fillText("Militarism Axis: " + document.getElementById("militarim-label").innerHTML, 400, 1375)
+		ctx.fillText("Militarism Axis: " + document.getElementById("militarism-label").innerHTML, 400, 1375)
 		ctx.fillText("Cultural Homogony: " +document.getElementById("cultural-label").innerHTML, 400, 1495)
 		
         document.getElementById("banner").src = c.toDataURL();
