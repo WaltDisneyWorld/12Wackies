@@ -42,14 +42,14 @@
     <div class="bar incognitism" id="bar-incognitism"><div class="text-wrapper" id="incognitism"></div></div>
     <img id="img-incognitism" src="value_images/incognitism.png" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>Civil Axis: <span class="weight-300" id="civil-label"></span></h2>
 <div class="axis">
     <img id="img-self" src="value_images/self.png" height="128pt"/>
     <div class="bar self" id="bar-self"><div class="text-wrapper" id="self"></div></div>
     <div class="bar totality" id="bar-totality"><div class="text-wrapper" id="totality"></div></div>
     <img id="img-totality" src="value_images/totality.png" height="128pt"/>
 </div>
-<h2>Moralism Axis: <span class="weight-300" id="morlety-label"></span></h2>
+<h2>Moralism Axis: <span class="weight-300" id="moralism-label"></span></h2>
 <div class="axis">
     <img id="img-moralist" src="value_images/moralist.png" height="128pt"/>
     <div class="bar moralist" id="bar-moralist"><div class="text-wrapper" id="moralist"></div></div>
@@ -219,7 +219,7 @@
     document.getElementById("economic-label").innerHTML = setLabel(altruity, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(cosmocracy, diplArray)
     document.getElementById("civil-label").innerHTML = setLabel(self, civiArray)
-    document.getElementById("moralist-label").innerHTML = setLabel(moralist, morlArray)
+    document.getElementById("moralism-label").innerHTML = setLabel(moralist, morlArray)
 	document.getElementById("order-label").innerHTML = setLabel(chaotic, ordrArray)
 	document.getElementById("technological-label").innerHTML = setLabel(regressive, techArray)
 	document.getElementById("hierarchy-label").innerHTML = setLabel(egalitarist, hierArray)
@@ -411,8 +411,8 @@
         ctx.textAlign="center"
         ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("moralist Axis: " + document.getElementById("morlety-label").innerHTML, 400, 535)
+        ctx.fillText("Civil Axis: " + document.getElementById("civil-label").innerHTML, 400, 415)
+        ctx.fillText("moralist Axis: " + document.getElementById("moralism-label").innerHTML, 400, 535)
 		ctx.fillText("Order Axis: " + document.getElementById("order-label").innerHTML, 400, 665)
 		ctx.fillText("Technological Axis: " + document.getElementById("technological-label").innerHTML, 400, 775)
 		ctx.fillText("Hierarchy Axis: " + document.getElementById("hierarchy-label").innerHTML, 400, 895)
