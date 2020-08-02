@@ -183,47 +183,47 @@ div.moralist {
 div.systematic {
 	background-color: #80B1D3;
 	text-align: right;
-	border-right-style: solid;
+	border-left-style: solid;
 }
 div.chaotic {
 	background-color: #C09AEC;
 	text-align: left
-	border-left-style: solid;
+	border-right-style: solid;
 }
 div.replacement {
 	background-color: #CC0033;
 	text-align: right;
-	border-right-style: solid;
+	border-left-style: solid;
 }
 div.regressive {
 	background-color: #B7C705;
 	text-align: left;
-	border-left-style: solid;
+	border-right-style: solid;
 }
 div.supremacist {
 	background-color: #D2B48C;
 	text-align: right;
-	border-right-style: solid;
+	border-left-style: solid;
 }
 div.egalitarian {
 	background-color: #FB9601;
 	text-align: left;
-	border-left-style: solid;
+	border-right-style: solid;
 }
 div.esoteric {
 	background-color: #9A6C0F;
 	text-align: right;
-	border-right-style: solid;
+	border-left-style: solid;
 }
 div.nihilism {
 	background-color: #343C3D;
 	text-align: left;
-	border-left-style: solid;
+	border-right-style: solid;
 }
 div.urbanism {
 	background-color: #30854C;
 	text-align: right;
-	border-right-style: solid;
+	border-left-style: solid;
 }
 div.universalism {
 	background-color: #BEBADA;
@@ -238,7 +238,7 @@ div.aristocracy {
 div.ochlocracy {
 	background-color: #7D00D0;
 	text-align: left;
-	border-left-style: solid;
+	border-right-style: solid;
 }
 div.monoculturalism {
 	background-color: #004D3B;
@@ -248,17 +248,17 @@ div.monoculturalism {
 div.panculturalism {
 	background-color: #D10099;
 	text-align; left;
-	border-left-style: solid;
+	border-right-style: solid;
 }
 div.irenic {
 	background-color: #FFFFFF;
 	text-align: right;
-	border-right-style: solid;
+	border-left-style: solid;
 }
 div.destructionism {
 	background-color: #004904;
 	text-align: left;
-	border-left-style: solid;
+	border-right-style: solid;
 }
 
 span.weight-300 {
