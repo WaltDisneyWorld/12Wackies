@@ -119,12 +119,12 @@ questions = [
         }
     },
 			    {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "I believe in Capital Punishment.",
         "effect": {
-            "econ": 5,
+            "econ": 0,
             "dipl": 0,
             "civi": 0,
-            "morl": 0,
+            "morl": -5,
 			"ordr": 0,
 			"tech": 0,
 			"hier": 0,
@@ -153,9 +153,9 @@ questions = [
         }
     },
 			    {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "The word "Mine" is offensive.",
         "effect": {
-            "econ": 5,
+            "econ": 10,
             "dipl": 0,
             "civi": 0,
             "morl": 0,
@@ -170,7 +170,7 @@ questions = [
         }
     },
 				    {
-        "question": "An Individual by himself is useless.",
+        "question": "An Individual by themself is useless.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -187,7 +187,7 @@ questions = [
         }
     },
 				    {
-        "question": "An Individual can do much more by himself, than being restricted in a group.",
+        "question": "An Individual can do much more by themself, than being restricted in a group.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -2072,5 +2072,21 @@ questions = [
 			"cult": 0,
 			"milt": 0,
         }
-    }
+    },
+	"question": "Dogs are better than cats. (One correct answer)",
+	"effect": {
+"econ": 0,
+	"dipl": 0,
+	"civi": 0,
+	"morl": 0,
+	"ordr": 0,
+	"tech": 0,
+	"hier": 0,
+	"rlgs": 0,
+	"rgnl": 0,
+	"govt": 0,
+	"cult": 0,
+	"milt": 0,
+	}
+	}
 ];
