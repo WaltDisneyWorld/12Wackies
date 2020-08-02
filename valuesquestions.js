@@ -2072,21 +2072,5 @@ questions = [
 			"cult": 0,
 			"milt": 0,
         }
-    },
-	"question": "Dogs are better than cats. (One correct answer)",
-	"effect": {
-"econ": 0,
-	"dipl": 0,
-	"civi": 0,
-	"morl": 0,
-	"ordr": 0,
-	"tech": 0,
-	"hier": 0,
-	"rlgs": 0,
-	"rgnl": 0,
-	"govt": 0,
-	"cult": 0,
-	"milt": 0,
-	}
-	}
+    }
 ];
