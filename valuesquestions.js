@@ -153,7 +153,7 @@ questions = [
         }
     },
 			    {
-        "question": "The word "Mine" is offensive.",
+        "question": "The word Mine is offensive.",
         "effect": {
             "econ": 10,
             "dipl": 0,
