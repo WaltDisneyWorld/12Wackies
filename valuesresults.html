@@ -6,7 +6,7 @@
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <script>
-  version = "v2.0.0"
+  version = "v0.0.3"
 </script>
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics, No Personal Data Collected -->
@@ -98,7 +98,7 @@
     <div class="bar aristocracy" id="bar-aristocracy"><div class="text-wrapper" id="aristocracy"></div></div>
     <img id="img-aristocracy" src="value_images/aristocracy.png" height="128pt"/>
 </div>
-<h2>Cultural Homogony Axis: <span class="weight-300" id="cultural-label"></span></h2>
+<h2>Cultural Homogeny Axis: <span class="weight-300" id="cultural-label"></span></h2>
 <div class="axis">
     <img id="img-panculturalism" src="value_images/panculturalism.png" height="128pt"/>
     <div class="bar panculturalism" id="bar-panculturalism"><div class="text-wrapper" id="panculturalism"></div></div>
@@ -142,17 +142,17 @@
     }
 
     econArray = ["Ultra-Hivemind","Communalist","Posadist","Utopian","Realist","Economic Anarchism","Social Darwinism","Band Society Anarchist","Combatocratic"]
-    diplArray = ["Based Insularist","Anti-Dominionist","Insularist","Ideological Pacificist","Mortal","Imperialist","Dominionist","Universalist","Interdimensional Dominionist"]
+    diplArray = ["North Sentinelism","Incognitism","Isolationism","Anti-UN","Diplomatic Neutrality","Globalist","Ultra-Intervensionism","One-World Government","Star-Wars Galacticism"]
     civiArray = ["Anti-Societist","Egoist","Selfist","Individualist","Rational","Absolutist","Totalitist","Orwellian","Ultra-Orwellian"]
-    morlArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	ordrArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	techArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	hierArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	rlgsArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	rgnlArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	govtArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	cultArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
-	miltArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
+    morlArray = ["Luciferianism","Psychotic","Immoralism","Moral Denier","Average Joe","Moralist","Moral Dependency","Extremely Moral","M̷̢͉̭̌͗O̶̙͇̲͐R̴͈̚͝A̶̻̣̔̔L̷͕̣̜̂"]
+	ordrArray = ["Total Chaos","Impulsivism","Anti-Groupism","Self Isolationism","Order Centrism","Orderly","Systematic","Human Cog-ism","One Mind, Billions of Bodies"]
+	techArray = ["Post-Humanism","Inferiorism","Transhumanism","Technological Accelerationism","Modern Technology","Anti-Tech","Regressionism","Primalism","Pre-Bronze Ageism"]
+	hierArray = ["Single Ruler Illuminatisim","Supremocracy","Cultural Hierarchy","Absolutism","Hierarchical Centrism","Communism","Egalitarian","Anti-Race","Post-Binarism	"]
+	rlgsArray = ["Heavenism","Ultra-Religious Fundamentalism","Enforced Anti-Atheism","Religious","Spiritual","Secular","Ultra-Atheism","Enforced Anti-Religious","Post-Religious"]
+	rgnlArray = ["Tribe","Commune","City","State","Regional Centrism","Continent","Planet","Solar-System","Universe"]
+	govtArray = ["Pure Aristocracy","Absolute Absolutism","Elite Rule","Semi-Heredetiry Presidency","Man I really don't care about how many and who rules-ism","Elections","Parliamentism","Direct Democracy","Mob-Rule"]
+	cultArray = ["Ultra Ethno-State","Cultural Exclusion","Cultural Preferance","Cultural Pride","Realistic","Cultural Blindeness","Cosmopolitan","Panculturalism","Post-Culture"]
+	miltArray = ["Post-Aggressivism","Hivemind Pacifism","Irenic","Pacifist","Reasonable","Militarism","Destructionism","Nuclearism","Anti-Humanism"]
 
     function setLabel(val,ary) {
         if (val > 100) { return ary[0] } else
@@ -414,7 +414,7 @@
 	    
         ctx.font="300 30px Montserrat"
         ctx.fillText("12wackies.github.io", 780, 60)
-		ctx.fillText("v0.0.2", 780, 90)
+		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
@@ -426,8 +426,8 @@
 		ctx.fillText("Religious Axis: " + document.getElementById("religious-label").innerHTML, 400, 1015)
 		ctx.fillText("Regional Axis: " + document.getElementById("regional-label").innerHTML, 400, 1135)
 		ctx.fillText("Governmental Axis: " + document.getElementById("governmental-label").innerHTML, 400, 1255)
-		ctx.fillText("Militarism Axis: " + document.getElementById("militarism-label").innerHTML, 400, 1375)
-		ctx.fillText("Cultural Homogony: " +document.getElementById("cultural-label").innerHTML, 400, 1495)
+		ctx.fillText("Cultural Homogeny: " + document.getElementById("militarism-label").innerHTML, 400, 1375)
+		ctx.fillText("Militarism: " +document.getElementById("cultural-label").innerHTML, 400, 1495)
 		
         document.getElementById("banner").src = c.toDataURL();
     }
