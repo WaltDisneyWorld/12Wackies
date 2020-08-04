@@ -391,12 +391,12 @@ questions = [
         }
     },
 						    {
-        "question": "Morality is objective, thus shouldn't be applied on a universal basis.",
+        "question": "Morality is subjective, thus shouldn't be applied on a universal basis.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "civi": 0,
-            "morl": -10,
+            "morl": 10,
 			"ordr": 0,
 			"tech": 0,
 			"hier": 0,
