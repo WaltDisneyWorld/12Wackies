@@ -396,7 +396,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "civi": 0,
-            "morl": 10,
+            "morl": -10,
 			"ordr": 0,
 			"tech": 0,
 			"hier": 0,
