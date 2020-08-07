@@ -151,8 +151,8 @@
 	rlgsArray = ["Post-Religion","Enforced Anti-Religion","Enforced Atheism","Secular","Spiritual","Religious","Enforced Anti-Atheism","Ultra Religious Fundamentalism","Heavenism"]
 	rgnlArray = ["Universe","Solar System","Planet","Continent","Regional Centrism","State","City","Commune","Tribe"]
 	govtArray = ["Mob-Rule","Direct Democracy","Parliamentism","Elections","Man I really don't care about how many and who rules-ism","Semi-Hereditary Presidency","Elite Rule","Absolute Absolutism","Pure Aristocracy"]
-	cultArray = ["Post-Culture","Panculturalism","Cosmopolitan","Cultural Blindness","Realistic","Cultural Pride","Cultural Preferance","Cultural Exclusion","Ultra Ethno-State"]
-	miltArray = ["Anti-Humanism","Nuclearism","Destructionism","Militarism","Reasonable","Pacifism","Irenic","Hivemind Pacifism","Post-Aggressivism"]
+	cultArray = ["Ultra Ethno State","Cultural Exclusion","Cultural Preference","Cultural Preference","Realistic","Cultural Blindness","Cosmopolitan","Panculturalism","Post-Culturalism"]
+	miltArray = ["Post-Aggressivism","Hivemind Pacifism","Irenic","Pacifism","Reasonable","Militarism","Destructionism","Nuclearism","Anti-Humanism"]
 
     function setLabel(val,ary) {
         if (val > 100) { return ary[0] } else
@@ -226,8 +226,8 @@
 	document.getElementById("religious-label").innerHTML = setLabel(nihilism, rlgsArray)
 	document.getElementById("regional-label").innerHTML = setLabel(universalism, rgnlArray)
 	document.getElementById("governmental-label").innerHTML = setLabel (ochlocracy, govtArray)
-	document.getElementById("cultural-label").innerHTML = setLabel (panculturalism, miltArray)
-	document.getElementById("militarism-label").innerHTML = setLabel (destructionism, cultArray)
+	document.getElementById("cultural-label").innerHTML = setLabel (panculturalism, cultArray)
+	document.getElementById("militarism-label").innerHTML = setLabel (destructionism, miltArray)
 
     ideology = ""
     ideodist = Infinity
@@ -426,8 +426,8 @@
 		ctx.fillText("Religious Axis: " + document.getElementById("religious-label").innerHTML, 400, 1015)
 		ctx.fillText("Regional Axis: " + document.getElementById("regional-label").innerHTML, 400, 1135)
 		ctx.fillText("Governmental Axis: " + document.getElementById("governmental-label").innerHTML, 400, 1255)
-		ctx.fillText("Cultural Homogeny: " + document.getElementById("militarism-label").innerHTML, 400, 1375)
-		ctx.fillText("Militarism: " +document.getElementById("cultural-label").innerHTML, 400, 1495)
+		ctx.fillText("Cultural Homogeny: " + document.getElementById("cultural-label").innerHTML, 400, 1375)
+		ctx.fillText("Militarism: " +document.getElementById("militarism-label").innerHTML, 400, 1495)
 		
         document.getElementById("banner").src = c.toDataURL();
     }
