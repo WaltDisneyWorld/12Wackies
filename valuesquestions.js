@@ -221,7 +221,7 @@ questions = [
         }
     },
 					    {
-        "question": "The very existance of the state is a spook.",
+        "question": "The very existance of collectives are a spook.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -425,7 +425,7 @@ questions = [
         }
     },
 						    {
-        "question": "Morality is real and important, and not a spook.",
+        "question": "Morality is real, important, and not a spook.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -748,7 +748,7 @@ questions = [
         }
     },
 									    {
-        "question": "The Elite are superior, and are more fit to rule.",
+        "question": "An upper class of people have gained their status for a reason, they are by all definitions more fit to rule than lower classmen.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -831,25 +831,8 @@ questions = [
 			"cult": 0,
 			"milt": 0,
         }
-    },
-									    {
-        "question": "Democracy is a failed system, and everything resembeling it is invalid.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "civi": 0,
-            "morl": 0,
-			"ordr": 0,
-			"tech": 0,
-			"hier": 0,
-			"rlgs": 0,
-			"rgnl": 0,
-			"govt": -5,
-			"cult": 0,
-			"milt": 0,
-        }
-    },
-									    {
+    },			
+	{
         "question": "Space is the last frontier.",
         "effect": {
             "econ": 0,
@@ -1037,7 +1020,7 @@ questions = [
         }
     },
 	{
-	        "question": "My Political ideas are influenced by my Religion.",
+	        "question": "One cannot truly live without faith.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1852,24 +1835,7 @@ questions = [
 			"milt": 0,
         }
     },
-							{
-		        "question": "It is inevitable that humans will be replaced by machines.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "civi": 0,
-            "morl": 0,
-			"ordr": 0,
-			"tech": 10,
-			"hier": 0,
-			"rlgs": 0,
-			"rgnl": 0,
-			"govt": 0,
-			"cult": 0,
-			"milt": 0,
-        }
-    },
-								{
+	{
 		        "question": "No A.I will be able to outmatch humanity.",
         "effect": {
             "econ": 0,
@@ -2040,7 +2006,7 @@ questions = [
         }
     },
 									{
-		        "question": "All people are equal, regardless of anything and everything you can think of.",
+		        "question": "People, as humans, regardless of their actions, are always equal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
